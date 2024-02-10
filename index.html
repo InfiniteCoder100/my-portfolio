@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+// pull request
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="assets/images/avatar-5.jpg" alt="Kundan Kumar" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kundan Kumar">Kundan Kumar</h1>
+
+          <p class="title">Blockchain Developer</p>
+          <br>
+          <p class="title">Web3 Security Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">kundan773599@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 8342038112</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 23, 2001</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Odisha, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kundandevner101/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/CodeBlocker_52" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/CodeBlocker52" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a skilled Blockchain Developer and Web3 Security Researcher, passionate
+            about advancing blockchain technology. My expertise lies in
+            developing decentralized applications and conducting Smart Contract Auditing for various protocols.
+          </p>
+
+          <p>
+            In development, I specialize in Ethereum, polygon platforms. I
+            excel in smart contract development using Solidity, Hardhat, and
+            Ethers.js, with a focus on security and scalability.
+          </p>
+          As a Web3 Security Researcher, I explore various blockchain protocols, do static analyzing and find as many
+          vulnerabilities
+          I can to make the protocol safe.
+          <p></p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  Smart Contract Development
+                </h4>
+
+                <p class="service-item-text">
+                  I specialize in creating Solidity smart contracts
+                  specifically tailored for the Ethereum and Polygon
+                  blockchains. Our expertise lies in developing secure and
+                  efficient contracts to meet the specific needs of these
+                  blockchain platforms.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Integrate blockchain into web applications, connecting the
+                  front-end and back-end. Services include web interface to
+                  blockchain network connection, wallet integrations, and
+                  smart contract interaction.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web3 Security Researcher</h4>
+
+                <p class="service-item-text">
+                  As a Web3 Security Researcher, I explore various blockchain protocols, do static analyzing and find as
+                  many vulnerabilities
+                  I can to make the protocol safe.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX</h4>
+
+                <p class="service-item-text">
+                  I am a UI/ux designer and am familiar with the Figma tool; I
+                  have used it to create a variety of websites.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Achievements</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Lead Organizer for Codigo in TECHNOROLLIX 2023 <br />at OP Jindal University.
+                </h4>
+
+                <div class="testimonials-text-main" style="color: white;" data-testimonials-text>
+
+                  I organized a coding Contest named "Codigo" at my University with a team of developers where more than
+                  200 students actively participated from our college.
+                  My role aimed to foster community engagement, promote
+                  this event, and guide students and developers.
+
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Team Lead <br />for Avalanche team at Metacrafters
+                </h4>
+
+                <div class="testimonials-text-main" style="color: white;" data-testimonials-text>
+                  <p>
+                    Established and leading an innovative Team of Avalanche developers for Metacrafters
+                    dedicated to driving the adoption and development of Web3
+                    technologies.<br />Responsible for vision, team building,
+                    strategic initiatives
+                  </p>
+                </div>
+              </div>
+            </li>
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Team Lead<br /> HacknoMinds
+                </h4>
+
+                <div class="testimonials-text-main" style="color: white;" data-testimonials-text>
+                  <p>
+                    I have formed a team of developers from all over India to join and participate in Hackathons and
+                    collaborate on various other events.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+          <h3 class="h3 clients-title"></h3>
+
+          <ul class="clients-list has-scrollbar"></ul>
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                OP Jindal University , Raigarh , Chattisgarh
+              </h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                B.Tech inComputer Science, Specialization in Blockchain
+                Security
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Dav Public School </h4>
+
+              <span>2017 — 2019</span>
+
+              <p class="timeline-text">High School class </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Dav Public School</h4>
+
+              <span>2008 - 2017</span>
+
+              <p class="timeline-text">Primary Class </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience/Internship</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Blockchain Developer
+              </h4>
+
+              <span>July 2023 - Present</span>
+
+              <p class="timeline-text">Company: Metacrafters</p>
+              <p class="timeline-text">
+                • Design and develop smart contracts using Solidity, Conduct
+                comprehensive research on existing blockchain protocols and
+                frameworks.<br />
+                • Developing test suites for all new projects and and making sure all tools and frameworks are working
+                good.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                React Developer
+              </h4>
+
+              <span>Jan 2023 – May 2023</span>
+
+              <p class="timeline-text">Company: Otakukart </p>
+              <p class="timeline-text">
+                Developing and maintaining web applications using React.js and other related technologies.
+                Collaborating with cross-functional teams including designers, product managers, and other developers to
+                create high-quality products.
+                Implementing responsive design and ensuring cross-browser compatibility.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Web Developer(Freelance)
+              </h4>
+
+              <span>Jan 2022 – April 2023</span>
+
+              <p class="timeline-text">Company: Fiverr </p>
+              <p class="timeline-text">
+                Developing and maintaining web applications using React.js and other related technologies.
+                Collaborating with cross-functional teams including designers, product managers, and other developers to
+                create high-quality products.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Achievements</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Eth Abu Dhabi 2023 Hackathon Winner
+              </h4>
+
+              <span>Avely Finance Track</span>
+
+              <p class="timeline-text">
+                My project LSD, emerged as the winner in the blockchain theme at Eth Abu Dhabi 2023 Hackathon, where
+                around 150 teams participated from colleges across Globe.<br />
+                It was an awesome hack and grateful to them to reward me with Bounty prize of $1000(83K).
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BlockBinge 2023 Hackathon Winner(1st prize)</h4>
+
+              <span> Open Innovation Track, organized by MLSA-USAR!</span>
+
+              <p class="timeline-text">It was an incredible journey of innovation and collaboration,
+                where we delved into the world of Blockchain to create something truly groundbreaking.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">HackStreet 2.0 Online Hackathon 2nd Runner Up</h4>
+
+              <span>Web3 Track</span>
+
+              <p class="timeline-text">HackStreet is a 24 hour long running hackathon, being held on 3rd and 4th of
+                February. <br />
+                In the qualification round, our team successfully qualified. <br />
+                For the second round, we gave our final Pitch , where around 20 teams from across India participated in
+                the coding challenge. <br />
+                Our project, CertiVerse, was among the top 10 projects selected for the third Prize Winner.</p>
+            </li>
+
+
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My Programming skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Typescript</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Solidity</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Golang</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C++ </h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Miscellaneous skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Solidity</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Foundry</h5>
+                <data value="90">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Hardhat</h5>
+                <data value="60">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Ethers.js</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">IPFS/Filecoin</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="Web3">
+              <a href="https://github.com/InfiniteCoder100/LSD" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="LSD" height="100" width="170" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">LSD</h3>
+
+                <p class="project-category"></p>
+                <span class="project-category">Project</span>
+                <br />
+
+
+                <p class="project-category">
+                  LSD is a liquid staking and leverage staking based yield generating vault. You can deposit your matic
+                  and receive LSD tokens which will appreciate in value w.r.t. matic over time 📈 LSD internally uses
+                  Stader, Aave & Balancer as well as the whole project is build using scaffold-eth 2 🏗️
+
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Web3">
+              <a href="https://github.com/InfiniteCoder100/SAAVE" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Saave" height="80" width="120" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Saave</h3>
+
+                <p class="project-category"></p>
+                <span class="project-category">Project</span>
+                <br />
+                <p class="project-category">
+                  SAAVE leverages Ethereum's robust smart contract capabilities to integrate with AAVE, a trusted
+                  lending protocol, allowing users to earn interest on stablecoins.
+                  By deploying on Polygon, SAAVE mitigates the challenges of high gas fees, providing a user-friendly
+                  experience for beginners to easily navigate and earn passive income on stablecoins.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Web3">
+              <a href="https://github.com/InfiniteCoder100/CertiVerse" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.webp" alt="CertiVerse" height="80" width="120" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">CertiVerse</h3>
+                <p class="project-category">
+                  Smart Contract
+                </p>
+                <br />
+                <p class="project-category">
+                  The existing system lacks an efficient and tamper-proof mechanism for verifying digital certificates,
+                  creating challenges for
+                  Government Offices,
+                  Students, Industry professionals, and Institutes.
+                  So solving this problem was a must. We created a Dapp which solves this problem by
+                  coverting the generated certificates using blockchain into NFTs (Non Fungible Tokens) which makes them
+                  transparent and immutable.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Web3">
+              <a href="https://github.com/InfiniteCoder100/TokenX" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="TokenX" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">TokenX</h3>
+
+                <p class="project-category">Smart Contract</p>
+                <br />
+                <p class="project-category">
+                  It provides an interactive no-code platform that allows users to create a NFT collection on XDC
+                  network. TokenX empowers creators to build thriving web3 communities on XDC network. We desire to
+                  provide a launchpad that simplifies community, monetization, and growth. It also provides a developer
+                  tool to airdrop NFTs in batches just by providing a recipients list.
+                </p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Web3 + AI/ML">
+              <a href="https://github.com/InfiniteCoder100/MintBuddy">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="MintBuddy" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">MintBuddy</h3>
+
+                <p class="project-category">Projects</p>
+                <br />
+                <p class="project-category">
+                  Introducing MintBuddy, the ultimate blockchain chatbot designed to simplify the process of interacting
+                  with cryptocurrencies and NFTs. Do you find it challenging to navigate the complexities of blockchain
+                  technology? Are you tired of switching between platforms, connecting multiple wallets, and struggling
+                  to understand the terminology? With MintBuddy, you can send crypto, buy crypto, and mint NFTs with
+                  ease, all directly on the chatbot.
+                </p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://github.com/InfiniteCoder100/CreepPay_Dapp" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="CheepPay" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">CheepPay</h3>
+
+                <p class="project-category">Smart Contract</p>
+                <br />
+                <p class="project-category">
+                  CreepPay is a Web3 Payment Interface Application for exchanging money across borders with very less
+                  effort and time, removing the long time delay and complexities in FACED traditional payment gateways.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://github.com/InfiniteCoder100/fastcoin.Dapp" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Blockchain" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">FastCoin</h3>
+
+                <p class="project-category">Smart Contract</p>
+                <br />
+                <p class="project-category">
+                  FastCoin is Blockchain Application on Web 3.0 app with React Solidity , UI Creation using tailwindcss.
+                  It is used to store your Nft and provide token to other address.
+
+
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://github.com/InfiniteCoder100/DataX" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="ER-721" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">DataX</h3>
+
+                <p class="project-category">Smart Contract</p>
+                <br />
+                <p class="project-category">
+                  DataX is a bid/ask marketplace concept for data similar to StockX where users can list data their
+                  unique and custom datasets for sale with the ability for public search and potential buyers to set
+                  their asking price.Built using NextJS, Filecoin FVM, Tableland, Dataverse, Saturn, and web3.storage
+                  for the REBUILD
+
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://github.com/Shubham1769/code.py/blob/main/code.py" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.jpg" alt="Fila Clone" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Fila Clone</h3>
+
+                <p class="project-category">Project</p>
+                <br />
+                <p class="project-category">
+                  This is a fila clone website made using tailwind Css and html5.
+                </p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://codewithkundan.hashnode.dev/an-introduction-to-zero-knowledge-proofs-and-their-impact-in-blockchain"
+                target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog1.avif" alt="Zero-Knowledge Proof" loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 6, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Zeo Knowledge Proof</h3>
+
+                  <p class="blog-text">
+                    An Introduction to Zero-Knowledge Proofs and Their Impact in Blockchain
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        <div class="m-7">
+          <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            <input type="hidden" name="access_key" value="d77c5657-8a40-43d3-9b04-18218e56424f" />
+            <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+            <input type="checkbox" name="botcheck" id="" style="display: none;" />
+            <section class="contact-form">
+              <h3 class="h3 form-title">Contact Form</h3>
+
+              <form action="#" class="form" data-form>
+                <div class="input-wrapper">
+                  <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                    data-form-input />
+
+                  <input type="email" name="email" class="form-input" placeholder="Email address" required
+                    data-form-input />
+                </div>
+
+                <textarea name="message" class="form-input" placeholder="Your Message" required
+                  data-form-input></textarea>
+
+                <button class="form-btn" type="submit" disabled data-form-btn>
+                  <ion-icon name="paper-plane"></ion-icon>
+                  <a href="index.html"> <span>Send Message</span></a>
+                </button>
+              </form>
+          </form>
+        </div>
+        </section>
+      </article>
+    </div>
+
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
